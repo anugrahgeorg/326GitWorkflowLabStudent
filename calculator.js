@@ -1,6 +1,11 @@
 // TODO: Fix the square root function not displaying
-function calculateSquareRoot(value) {
-  // return the square root of the value
+function calculateSquareRoot(value) { // George's part
+    if (value < 0) {
+        return "Negative number is not allowed as it cannot be calculated"
+    }
+    
+    return Math.sqrt(value);
+    // return the square root of the value
 }
 
 // TODO: Implement square function
