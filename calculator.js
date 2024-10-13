@@ -27,7 +27,7 @@ function naturalLog(value) {
     if (value === 0) {
         return 'Cannot get the natural log of 0';
     }
-    return Math.log(value)
+    return Math.log(value);
 }
 
 // TODO: Implement sine function
