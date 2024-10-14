@@ -35,7 +35,9 @@ function runSquareRoot() {
     
 }
 
+// MINE IS RUN SQUARE. 
 function runSquare() {
+    //
     // Hint: Use exponentiation
     const v = calculateSquare(display.value);
     display.value = v;
