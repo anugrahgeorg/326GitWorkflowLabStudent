@@ -1,16 +1,17 @@
 // TODO: Fix the square root function not displaying
-function calculateSquareRoot(value) { // George's part
-  // use if condition here 
-    if (value < 0) {
-        return "Negative number is not allowed as it cannot be calculated"
-    }
-    
-    return Math.sqrt(value);
-    // return the square root of the value
+function calculateSquareRoot(value) {
+  // George's part
+  // use if condition here
+  if (value < 0) {
+    return "Negative number is not allowed as it cannot be calculated";
+  }
+
+  return Math.sqrt(value);
+  // return the square root of the value
 }
 
 function calculateSquare(value) {
-  return value * value; // multiply value by itself instead of using Math
+  return value * value;
 }
 
 // TODO: FIX reciprocal function
