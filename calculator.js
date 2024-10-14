@@ -16,11 +16,7 @@ function calculateSquare(value) {
 
 // TODO: FIX reciprocal function
 
-function calculateReciprocal() {
-  // Hint: Reciprocal is 1/x
-  // return the square root of the value
-  return 1 * value;
-}
+
 function calculateReciprocal(value) {
     // Hint: Reciprocal is 1/x
     // return the square root of the value
