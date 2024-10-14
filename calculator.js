@@ -1,6 +1,12 @@
 // TODO: Fix the square root function not displaying
-function calculateSquareRoot(value) {
-  // return the square root of the value
+function calculateSquareRoot(value) { // George's part
+  // use if condition here 
+    if (value < 0) {
+        return "Negative number is not allowed as it cannot be calculated"
+    }
+    
+    return Math.sqrt(value);
+    // return the square root of the value
 }
 
 function calculateSquare(value) {
@@ -23,7 +29,6 @@ function calculateReciprocal(value) {
 
 // TODO: Implement natural log function
 function naturalLog(value) {
-  // return the natural log of the value
   // return the natural log of the value
   if (value === 0) {
     return "Cannot get the natural log of 0";
