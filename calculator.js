@@ -1,5 +1,6 @@
 // TODO: Fix the square root function not displaying
 function calculateSquareRoot(value) { // George's part
+  // use if condition here 
     if (value < 0) {
         return "Negative number is not allowed as it cannot be calculated"
     }
