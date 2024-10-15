@@ -11,11 +11,10 @@ function calculateSquareRoot(value) {
 }
 
 function calculateSquare(value) {
-  return value * value;
+  return value * value; // multiply value by itself instead of using Math
 }
 
 // TODO: FIX reciprocal function
-
 function calculateReciprocal(value) {
   // Hint: Reciprocal is 1/x
   // return the square root of the value
