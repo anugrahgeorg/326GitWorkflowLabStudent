@@ -16,14 +16,16 @@ function calculateSquare(value) {
 
 // TODO: FIX reciprocal function
 
-function calculateReciprocal() {
-  // Hint: Reciprocal is 1/x
-  // return the square root of the value
-  return 1 * value;
-}
+
 function calculateReciprocal(value) {
+
   // Hint: Reciprocal is 1/x
   // return the square root of the value
+
+    // Hint: Reciprocal is 1/x
+    // return the square root of the value
+    return 1/value;
+
 
   return 1 / value;
 }
@@ -39,8 +41,14 @@ function naturalLog(value) {
 
 // TODO: Implement sine function
 function sine(value) {
+
   // return the sine of the value
   return Math.sin(value);
+
+    // return the sine of the value
+    //this should work 
+    return Math.sin(value); 
+
 }
 
 // TODO: Implement cosine function
